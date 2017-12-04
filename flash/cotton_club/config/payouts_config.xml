@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<payout_definitions>
+		<payout_def value="5000" payoutID="5xWILD"/>
+		<payout_def value="1000" payoutID="4xWILD"/>
+		<payout_def value="500" payoutID="3xWILD"/>
+		<payout_def value="2500" payoutID="5xPIC1"/>
+		<payout_def value="500" payoutID="4xPIC1"/>
+		<payout_def value="200" payoutID="3xPIC1"/>
+		<payout_def adjacent="true" value="5000" required_symbols="WILD;PIC1" payoutID="5xPIC1+WILD"/>
+		<payout_def adjacent="true" value="1000" required_symbols="WILD;PIC1" payoutID="4xPIC1+WILD"/>
+		<payout_def adjacent="true" value="400" required_symbols="WILD;PIC1" payoutID="3xPIC1+WILD"/>
+		<payout_def value="1000" payoutID="5xPIC2"/>
+		<payout_def value="500" payoutID="4xPIC2"/>
+		<payout_def value="150" payoutID="3xPIC2"/>
+		<payout_def adjacent="true" value="2000" required_symbols="WILD;PIC2" payoutID="5xPIC2+WILD"/>
+		<payout_def adjacent="true" value="1000" required_symbols="WILD;PIC2" payoutID="4xPIC2+WILD"/>
+		<payout_def adjacent="true" value="300" required_symbols="WILD;PIC2" payoutID="3xPIC2+WILD"/>
+		<payout_def value="750" payoutID="5xPIC3"/>
+		<payout_def value="300" payoutID="4xPIC3"/>
+		<payout_def value="100" payoutID="3xPIC3"/>
+		<payout_def adjacent="true" value="1500" required_symbols="WILD;PIC3" payoutID="5xPIC3+WILD"/>
+		<payout_def adjacent="true" value="600" required_symbols="WILD;PIC3" payoutID="4xPIC3+WILD"/>
+		<payout_def adjacent="true" value="200" required_symbols="WILD;PIC3" payoutID="3xPIC3+WILD"/>
+		<payout_def value="500" payoutID="5xPIC4"/>
+		<payout_def value="200" payoutID="4xPIC4"/>
+		<payout_def value="100" payoutID="3xPIC4"/>
+		<payout_def adjacent="true" value="1000" required_symbols="WILD;PIC4" payoutID="5xPIC4+WILD"/>
+		<payout_def adjacent="true" value="400" required_symbols="WILD;PIC4" payoutID="4xPIC4+WILD"/>
+		<payout_def adjacent="true" value="200" required_symbols="WILD;PIC4" payoutID="3xPIC4+WILD"/>
+		<payout_def value="300" payoutID="5xACE"/>
+		<payout_def value="150" payoutID="4xACE"/>
+		<payout_def value="50" payoutID="3xACE"/>
+		<payout_def adjacent="true" value="600" required_symbols="WILD;ACE" payoutID="5xACE+WILD"/>
+		<payout_def adjacent="true" value="300" required_symbols="WILD;ACE" payoutID="4xACE+WILD"/>
+		<payout_def adjacent="true" value="100" required_symbols="WILD;ACE" payoutID="3xACE+WILD"/>
+		<payout_def value="200" payoutID="5xKING"/>
+		<payout_def value="100" payoutID="4xKING"/>
+		<payout_def value="25" payoutID="3xKING"/>
+		<payout_def adjacent="true" value="400" required_symbols="WILD;KING" payoutID="5xKING+WILD"/>
+		<payout_def adjacent="true" value="200" required_symbols="WILD;KING" payoutID="4xKING+WILD"/>
+		<payout_def adjacent="true" value="50" required_symbols="WILD;KING" payoutID="3xKING+WILD"/>
+		<payout_def value="200" payoutID="5xQUEEN"/>
+		<payout_def value="100" payoutID="4xQUEEN"/>
+		<payout_def value="20" payoutID="3xQUEEN"/>
+		<payout_def adjacent="true" value="400" required_symbols="WILD;QUEEN" payoutID="5xQUEEN+WILD"/>
+		<payout_def adjacent="true" value="200" required_symbols="WILD;QUEEN" payoutID="4xQUEEN+WILD"/>
+		<payout_def adjacent="true" value="40" required_symbols="WILD;QUEEN" payoutID="3xQUEEN+WILD"/>
+		<payout_def value="150" payoutID="5xJACK"/>
+		<payout_def value="50" payoutID="4xJACK"/>
+		<payout_def value="10" payoutID="3xJACK"/>
+		<payout_def adjacent="true" value="300" required_symbols="WILD;JACK" payoutID="5xJACK+WILD"/>
+		<payout_def adjacent="true" value="100" required_symbols="WILD;JACK" payoutID="4xJACK+WILD"/>
+		<payout_def adjacent="true" value="20" required_symbols="WILD;JACK" payoutID="3xJACK+WILD"/>
+		<payout_def value="150" payoutID="5xTEN"/>
+		<payout_def value="50" payoutID="4xTEN"/>
+		<payout_def value="10" payoutID="3xTEN"/>
+		<payout_def adjacent="true" value="300" required_symbols="WILD;TEN" payoutID="5xTEN+WILD"/>
+		<payout_def adjacent="true" value="100" required_symbols="WILD;TEN" payoutID="4xTEN+WILD"/>
+		<payout_def adjacent="true" value="20" required_symbols="WILD;TEN" payoutID="3xTEN+WILD"/>
+		<payout_def value="100" payoutID="5xNINE"/>
+		<payout_def value="50" payoutID="4xNINE"/>
+		<payout_def value="5" payoutID="3xNINE"/>
+		<payout_def adjacent="true" value="200" required_symbols="WILD;NINE" payoutID="5xNINE+WILD"/>
+		<payout_def adjacent="true" value="100" required_symbols="WILD;NINE" payoutID="4xNINE+WILD"/>
+		<payout_def adjacent="true" value="10" required_symbols="WILD;NINE" payoutID="3xNINE+WILD"/>
+		
+		<!-- bonus_game_id must be different -->
+		<payout_def adjacent="false" value="100" triggers_bonus="true" multiply_total_bet="true" payoutID="5xSCATTER">
+			<bonus_choice >
+				<set name="default" probability="1">
+	                <choice name="roulette_bonus" type="bonus_game" bonus_game_id="2" probability="1" />
+	            </set>
+			</bonus_choice>
+		</payout_def>
+		
+		<payout_def adjacent="false" value="25" triggers_bonus="true" multiply_total_bet="true" payoutID="4xSCATTER">
+			<bonus_choice >
+				<set name="default" probability="1">
+	                <choice name="roulette_bonus" type="bonus_game" bonus_game_id="1" probability="1" />
+	            </set>
+			</bonus_choice>
+		</payout_def>
+
+		<payout_def adjacent="false" value="0" triggers_bonus="true" multiply_total_bet="true" payoutID="3xSCATTER">
+			<bonus_choice >
+				<set name="default" probability="1">
+	                <choice name="roulette_bonus" type="bonus_game" bonus_game_id="0" probability="1" />
+	            </set>
+			</bonus_choice>
+		</payout_def>
+
+	</payout_definitions>
+
+</root>

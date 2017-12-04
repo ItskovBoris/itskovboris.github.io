@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+
+<menuData>
+	<mainMenu>
+		<menu name="Bonuses">
+			<menu name="Race" cmd="exit" param="3xSCATTER;0"/>
+			<menu name="Pick Stop" cmd="exit" param="3xSCATTER;4"/>
+		</menu>
+		<menu name="High Pay">
+			<menu name="Scatter">
+				<menu name="3xScatter" cmd="exit" param="3xSCATTER"/>
+			</menu>
+			<menu name="Wild">
+				<menu name="5xWild" cmd="exit" param="5xWILD"/>
+				<menu name="4xWild" cmd="exit" param="4xWILD"/>
+				<menu name="3xWild" cmd="exit" param="3xWILD"/>
+				<menu name="2xWild" cmd="exit" param="2xWILD"/>
+			</menu>
+			<menu name="Red">
+				<menu name="5xRed" cmd="exit" param="5xPIC1"/>
+				<menu name="4xRed" cmd="exit" param="4xPIC1"/>
+				<menu name="3xRed" cmd="exit" param="3xPIC1"/>
+				<menu name="2xRed" cmd="exit" param="2xPIC1"/>
+			</menu>
+			<menu name="Yellow">
+				<menu name="5xYellow" cmd="exit" param="5xPIC2"/>
+				<menu name="4xYellow" cmd="exit" param="4xPIC2"/>
+				<menu name="3xYellow" cmd="exit" param="3xPIC2"/>
+				<menu name="2xYellow" cmd="exit" param="2xPIC2"/>
+			</menu>
+			<menu name="Blue">
+				<menu name="5xBlue" cmd="exit" param="5xPIC3"/>
+				<menu name="4xBlue" cmd="exit" param="4xPIC3"/>
+				<menu name="3xBlue" cmd="exit" param="3xPIC3"/>
+				<menu name="2xBlue" cmd="exit" param="2xPIC3"/>
+			</menu>
+			<menu name="Girl">
+				<menu name="5xGirl" cmd="exit" param="5xPIC4"/>
+				<menu name="4xGirl" cmd="exit" param="4xPIC4"/>
+				<menu name="3xGirl" cmd="exit" param="3xPIC4"/>
+				<menu name="2xGirl" cmd="exit" param="2xPIC4"/>
+			</menu>
+		</menu>
+		<menu name="Low Pay">
+			<menu name="Ace">
+				<menu name="5xAce" cmd="exit" param="5xACE"/>
+				<menu name="4xAce" cmd="exit" param="4xACE"/>
+				<menu name="3xAce" cmd="exit" param="3xACE"/>
+				<menu name="2xAce" cmd="exit" param="2xACE"/>
+			</menu>
+			<menu name="King">
+				<menu name="5xKing" cmd="exit" param="5xKING"/>
+				<menu name="4xKing" cmd="exit" param="4xKING"/>
+				<menu name="3xKing" cmd="exit" param="3xKING"/>
+				<menu name="2xKing" cmd="exit" param="2xKING"/>
+			</menu>
+			<menu name="Queen">
+				<menu name="5xQueen" cmd="exit" param="5xQUEEN"/>
+				<menu name="4xQueen" cmd="exit" param="4xQUEEN"/>
+				<menu name="3xQueen" cmd="exit" param="3xQUEEN"/>
+				<menu name="2xQueen" cmd="exit" param="2xQUEEN"/>
+			</menu>
+			<menu name="Jack">
+				<menu name="5xJack" cmd="exit" param="5xJACK"/>
+				<menu name="4xJack" cmd="exit" param="4xJACK"/>
+				<menu name="3xJack" cmd="exit" param="3xJACK"/>
+				<menu name="2xJack" cmd="exit" param="2xJACK"/>
+			</menu>
+			<menu name="Ten">
+				<menu name="5xTen" cmd="exit" param="5xTEN"/>
+				<menu name="4xTen" cmd="exit" param="4xTEN"/>
+				<menu name="3xTen" cmd="exit" param="3xTEN"/>
+				<menu name="2xTen" cmd="exit" param="2xTEN"/>
+			</menu>
+		</menu>		
+		<menu name="Credits">
+			<menu name="Add $1000 " cmd="exit" param="1000_dollars"/>
+			<menu name="Add 1000 credits" cmd="exit" param="1000_credits"/>
+			<menu name="Add 100 * Max Bet" cmd="exit" param="100_credits"/>			
+			<menu name="Clear credits" cmd="exit" param="clear_credits"/>
+		</menu>
+		<menu name="Gamble state" cmd="exit" param="gamble_state"/>
+		<menu name="Reset game" cmd="exit" param="reset_game"/>
+		
+		<menu name="Stage">
+			<menu name="Scale mode">
+				<menu name="EXACT FIT" cmd="exit" param="exactFit"/>
+				<menu name="NO BORDER" cmd="exit" param="noBorder"/>
+				<menu name="SHOW ALL" cmd="exit" param="showAll"/>
+				<menu name="NO SCALE" cmd="exit" param="noScale"/>
+			</menu>
+			<menu name="Quality">
+				<menu name="BEST" cmd="exit" param="best"/>
+				<menu name="HIGH" cmd="exit" param="high"/>
+				<menu name="MEDIUM" cmd="exit" param="medium"/>
+				<menu name="LOW" cmd="exit" param="low"/>
+			</menu>
+		</menu>
+
+	</mainMenu>
+	<gambleMenu>
+		<menu name="Club" cmd="exit" param="club"/>
+		<menu name="Spade" cmd="exit" param="spade"/>
+		<menu name="Heart" cmd="exit" param="heart"/>
+		<menu name="Diamond" cmd="exit" param="diamond"/>
+	</gambleMenu>
+</menuData>

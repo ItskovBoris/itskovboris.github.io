@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+	<general revers_time="0" revers_offset="0" over_time="0.2" over_offset="0.4"/>
+	<sounds cycle="FF_2mode_ReelSpin1;FF_2mode_ReelSpin2;FF_2mode_ReelSpin3;FF_2mode_ReelSpin4;FF_2mode_ReelSpin5;FF_2mode_ReelSpin6"/>
+	<reel_params>
+		<reel spin_anim_time="1.5" extra_positions_per_spin="9" spin_start_delay="0" spin_delay_before_blur="0.1"/>
+		<reel spin_anim_time="1.9" extra_positions_per_spin="13" spin_start_delay="0" spin_delay_before_blur="0.12"/>
+		<reel spin_anim_time="2.3" extra_positions_per_spin="17" spin_start_delay="0" spin_delay_before_blur="0.14"/>
+		<reel spin_anim_time="2.7" extra_positions_per_spin="21" spin_start_delay="0" spin_delay_before_blur="0.16"/>
+		<reel spin_anim_time="3.2" extra_positions_per_spin="25" spin_start_delay="0" spin_delay_before_blur="0.18"/>
+	</reel_params>
+</root>

@@ -1,0 +1,39 @@
+body {
+	background:#3f3f3f url(../img/components/pagebg.jpg) repeat-x;
+	margin:0;
+	padding:15px;
+	color:#fff;
+	font-size:13px;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+a {
+	color:#5599d6;
+	text-decoration:underline;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+b {
+	color:#FFDB00;
+}
+
+h2 {
+	color:#FFDB00;
+}
+
+img {
+	border:0 solid #000;
+	display:block;
+}
+
+p {
+	margin:0 0 15px 0;
+	overflow:hidden;
+}
+
+div {
+	overflow:hidden;
+}

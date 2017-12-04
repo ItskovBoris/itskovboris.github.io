@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<bonus_game_list>
+		<bonus_game id="0" type="0" criterion_number="2" choice_generation_mode="generated_choice_sequence" outcome_generation_mode="predetermined_outcome">
+			<outcomes>
+				<outcome name="fg_12_3" result_type="free_spins" free_games="12" free_games_multiplier="3"/>
+				<outcome name="fg_12_4" result_type="free_spins" free_games="12" free_games_multiplier="4"/>
+				<outcome name="fg_15_2" result_type="free_spins" free_games="15" free_games_multiplier="2"/>
+				<outcome name="fg_15_3" result_type="free_spins" free_games="15" free_games_multiplier="3"/>
+				<outcome name="fg_15_4" result_type="free_spins" free_games="15" free_games_multiplier="4"/>
+				<outcome name="fg_16_2" result_type="free_spins" free_games="16" free_games_multiplier="2"/>
+				<outcome name="fg_16_3" result_type="free_spins" free_games="16" free_games_multiplier="3"/>
+				<outcome name="fg_16_4" result_type="free_spins" free_games="16" free_games_multiplier="4"/>
+				<outcome name="fg_17_2" result_type="free_spins" free_games="17" free_games_multiplier="2"/>
+				<outcome name="fg_17_3" result_type="free_spins" free_games="17" free_games_multiplier="3"/>
+				<outcome name="fg_18_2" result_type="free_spins" free_games="18" free_games_multiplier="2"/>
+				<outcome name="fg_18_4" result_type="free_spins" free_games="18" free_games_multiplier="4"/>
+				<outcome name="fg_19_2" result_type="free_spins" free_games="19" free_games_multiplier="2"/>
+				<outcome name="fg_19_3" result_type="free_spins" free_games="19" free_games_multiplier="3"/>
+				<outcome name="fg_20_2" result_type="free_spins" free_games="20" free_games_multiplier="2"/>
+				<outcome name="fg_20_5" result_type="free_spins" free_games="20" free_games_multiplier="5"/>
+				<outcome name="fg_24_2" result_type="free_spins" free_games="24" free_games_multiplier="2"/>
+				<outcome name="fg_25_5" result_type="free_spins" free_games="25" free_games_multiplier="5"/>
+			</outcomes>
+			<levels>
+				<level name="Level 1" min_pick_number="2" max_pick_number="5" requested_sequence_length="8" adjust_choice_sequence_by_user_pick_sequence="true">
+					<choice_set_map>
+						<choice_set_id_list default="true">
+							<item choice_set_id="0" prob_n="1" prob_d="1"/>
+						</choice_set_id_list>
+					</choice_set_map>
+				</level>
+			</levels>
+			<choices>
+				<!-- criterion_0 is free spins no, criterion_1 is multiplier no -->
+				<set name="normal game">
+					<choice criterion_0="1" criterion_1="0"/>
+					<choice criterion_0="2" criterion_1="0"/>
+					<choice criterion_0="3" criterion_1="0"/>
+					<choice criterion_0="4" criterion_1="0"/>
+					<choice criterion_0="5" criterion_1="0"/>
+					<choice criterion_0="6" criterion_1="0"/>
+					<choice criterion_0="7" criterion_1="0"/>
+					<choice criterion_0="8" criterion_1="0"/>
+					<choice criterion_0="9" criterion_1="0"/>
+					<choice criterion_0="10" criterion_1="0"/>
+
+					<choice criterion_0="0" criterion_1="1"/>
+					<choice criterion_0="0" criterion_1="2"/>
+					<choice criterion_0="0" criterion_1="3"/>
+					<choice criterion_0="0" criterion_1="4"/>
+					<choice criterion_0="0" criterion_1="5"/>
+
+					<choice criterion_0="0" criterion_1="0" additional_choices_number="1"/>
+					<choice criterion_0="0" criterion_1="0" additional_choices_number="2"/>
+				</set>
+			</choices>
+		</bonus_game>
+
+		<bonus_game id="1" type="1" hide_main_screen="false" criterion_number="1" points_prize_type="0" choice_generation_mode="random_choice" outcome_generation_mode="predetermined_outcome">
+			<outcomes>
+				<outcome name="prize_24" prize="24"/>
+				<outcome name="prize_30" prize="30"/>
+				<outcome name="prize_40" prize="40"/>
+				<outcome name="prize_50" prize="50"/>
+				<outcome name="prize_60" prize="60"/>
+			</outcomes>
+			<levels>
+				<level name="Level 1" min_pick_number="3" max_pick_number="4" requested_sequence_length="15" adjust_choice_sequence_by_user_pick_sequence="true">
+					<choice_set_map>
+						<choice_set_id_list outcome_id="0">
+							<item choice_set_id="0" prob_n="1" prob_d="1"/>
+						</choice_set_id_list>
+						<choice_set_id_list outcome_id="1">
+							<item choice_set_id="1" prob_n="1" prob_d="1"/>
+						</choice_set_id_list>
+						<choice_set_id_list outcome_id="2">
+							<item choice_set_id="2" prob_n="1" prob_d="2"/>
+							<item choice_set_id="3" prob_n="1" prob_d="2"/>
+						</choice_set_id_list>
+						<choice_set_id_list outcome_id="3">
+							<item choice_set_id="4" prob_n="1" prob_d="1"/>
+						</choice_set_id_list>
+						<choice_set_id_list outcome_id="4">
+							<item choice_set_id="5" prob_n="1" prob_d="1"/>
+						</choice_set_id_list>
+					</choice_set_map>
+				</level>
+			</levels>
+
+			<!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<choices>
+				<set min_pick_number="3" max_pick_number="3">
+					<choice criterion_0="6"/>
+					<choice criterion_0="7"/>
+					<choice criterion_0="8"/>
+					<choice criterion_0="9"/>
+					<choice criterion_0="10"/>
+				</set>
+				<set min_pick_number="3" max_pick_number="3">
+					<choice criterion_0="7"/>
+					<choice criterion_0="8"/>
+					<choice criterion_0="10"/>
+					<choice criterion_0="12"/>
+					<choice criterion_0="15"/>
+				</set>
+				<set min_pick_number="3" max_pick_number="3">
+					<choice criterion_0="8"/>
+					<choice criterion_0="10"/>
+					<choice criterion_0="12"/>
+					<choice criterion_0="15"/>
+					<choice criterion_0="20"/>
+				</set>
+				<set min_pick_number="4" max_pick_number="4">
+					<choice criterion_0="7"/>
+					<choice criterion_0="8"/>
+					<choice criterion_0="10"/>
+					<choice criterion_0="12"/>
+					<choice criterion_0="15"/>
+				</set>
+				<set min_pick_number="4" max_pick_number="4">
+					<choice criterion_0="8"/>
+					<choice criterion_0="10"/>
+					<choice criterion_0="12"/>
+					<choice criterion_0="15"/>
+					<choice criterion_0="20"/>
+				</set>
+				<set min_pick_number="4" max_pick_number="4">
+					<choice criterion_0="10"/>
+					<choice criterion_0="12"/>
+					<choice criterion_0="15"/>
+					<choice criterion_0="20"/>
+				</set>
+
+				<!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
+			</choices>
+		</bonus_game>
+
+		<bonus_game id="2" type="0" criterion_number="2" choice_generation_mode="generated_choice_sequence" outcome_generation_mode="predetermined_outcome">
+			<outcomes>
+				<outcome name="fg_18_3" result_type="free_spins" free_games="18" free_games_multiplier="3"/>
+				<outcome name="fg_19_2" result_type="free_spins" free_games="19" free_games_multiplier="2"/>
+				<outcome name="fg_19_4" result_type="free_spins" free_games="19" free_games_multiplier="4"/>
+				<outcome name="fg_20_2" result_type="free_spins" free_games="20" free_games_multiplier="2"/>
+				<outcome name="fg_20_3" result_type="free_spins" free_games="20" free_games_multiplier="3"/>
+				<outcome name="fg_21_3" result_type="free_spins" free_games="21" free_games_multiplier="3"/>
+				<outcome name="fg_22_4" result_type="free_spins" free_games="22" free_games_multiplier="4"/>
+				<outcome name="fg_23_2" result_type="free_spins" free_games="23" free_games_multiplier="2"/>
+				<outcome name="fg_23_3" result_type="free_spins" free_games="23" free_games_multiplier="3"/>
+				<outcome name="fg_24_4" result_type="free_spins" free_games="24" free_games_multiplier="4"/>
+				<outcome name="fg_24_5" result_type="free_spins" free_games="24" free_games_multiplier="5"/>
+				<outcome name="fg_25_3" result_type="free_spins" free_games="25" free_games_multiplier="3"/>
+				<outcome name="fg_25_4" result_type="free_spins" free_games="25" free_games_multiplier="4"/>
+				<outcome name="fg_25_2" result_type="free_spins" free_games="25" free_games_multiplier="2"/>
+				<outcome name="fg_26_3" result_type="free_spins" free_games="26" free_games_multiplier="3"/>
+				<outcome name="fg_28_2" result_type="free_spins" free_games="28" free_games_multiplier="2"/>
+				<outcome name="fg_29_4" result_type="free_spins" free_games="29" free_games_multiplier="4"/>
+				<outcome name="fg_30_5" result_type="free_spins" free_games="30" free_games_multiplier="5"/>
+			</outcomes>
+			<levels>
+				<level name="Level 1" min_pick_number="2" max_pick_number="5" requested_sequence_length="8" adjust_choice_sequence_by_user_pick_sequence="true">
+					<choice_set_map>
+						<choice_set_id_list default="true">
+							<item choice_set_id="0" prob_n="1" prob_d="1"/>
+						</choice_set_id_list>
+					</choice_set_map>
+				</level>
+			</levels>
+			<choices>
+
+				<set name="normal game">
+					<choice criterion_0="1" criterion_1="0"/>
+					<choice criterion_0="2" criterion_1="0"/>
+					<choice criterion_0="3" criterion_1="0"/>
+					<choice criterion_0="4" criterion_1="0"/>
+					<choice criterion_0="5" criterion_1="0"/>
+					<choice criterion_0="6" criterion_1="0"/>
+					<choice criterion_0="7" criterion_1="0"/>
+					<choice criterion_0="8" criterion_1="0"/>
+					<choice criterion_0="9" criterion_1="0"/>
+					<choice criterion_0="10" criterion_1="0"/>
+
+					<choice criterion_0="0" criterion_1="1"/>
+					<choice criterion_0="0" criterion_1="2"/>
+					<choice criterion_0="0" criterion_1="3"/>
+					<choice criterion_0="0" criterion_1="4"/>
+					<choice criterion_0="0" criterion_1="5"/>
+
+					<choice criterion_0="0" criterion_1="0" additional_choices_number="1"/>
+					<choice criterion_0="0" criterion_1="0" additional_choices_number="2"/>
+				</set>
+			</choices>
+		</bonus_game>
+
+		<bonus_game id="3" type="0" criterion_number="2" choice_generation_mode="generated_choice_sequence" outcome_generation_mode="predetermined_outcome">
+			<outcomes>
+				<outcome name="fg_20_3" result_type="free_spins"/>
+				<outcome name="fg_20_4" result_type="free_spins"/>
+				<outcome name="fg_20_5" result_type="free_spins"/>
+				<outcome name="fg_21_3" result_type="free_spins"/>
+				<outcome name="fg_21_4" result_type="free_spins"/>
+				<outcome name="fg_21_5" result_type="free_spins"/>
+				<outcome name="fg_22_3" result_type="free_spins"/>
+				<outcome name="fg_23_4" result_type="free_spins"/>
+				<outcome name="fg_24_5" result_type="free_spins"/>
+				<outcome name="fg_25_4" result_type="free_spins"/>
+				<outcome name="fg_28_3" result_type="free_spins"/>
+				<outcome name="fg_30_3" result_type="free_spins"/>
+				<outcome name="fg_30_4" result_type="free_spins"/>
+				<outcome name="fg_33_2" result_type="free_spins"/>
+				<outcome name="fg_35_4" result_type="free_spins"/>
+				<outcome name="fg_36_6" result_type="free_spins"/>
+				<outcome name="fg_38_3" result_type="free_spins"/>
+				<outcome name="fg_40_6" result_type="free_spins"/>
+			</outcomes>
+			<levels>
+				<level name="Level 1" min_pick_number="2" max_pick_number="5" requested_sequence_length="8" adjust_choice_sequence_by_user_pick_sequence="true">
+					<choice_set_map>
+						<choice_set_id_list default="true">
+							<item choice_set_id="0" prob_n="1" prob_d="1"/>
+						</choice_set_id_list>
+					</choice_set_map>
+				</level>
+			</levels>
+			<choices>
+				<set name="normal game">
+					<choice criterion_0="1" criterion_1="0"/>
+					<choice criterion_0="2" criterion_1="0"/>
+					<choice criterion_0="3" criterion_1="0"/>
+					<choice criterion_0="4" criterion_1="0"/>
+					<choice criterion_0="5" criterion_1="0"/>
+					<choice criterion_0="6" criterion_1="0"/>
+					<choice criterion_0="7" criterion_1="0"/>
+					<choice criterion_0="8" criterion_1="0"/>
+					<choice criterion_0="9" criterion_1="0"/>
+					<choice criterion_0="10" criterion_1="0"/>
+					<choice criterion_0="11" criterion_1="0"/>
+					<choice criterion_0="12" criterion_1="0"/>
+					<choice criterion_0="13" criterion_1="0"/>
+					<choice criterion_0="14" criterion_1="0"/>
+					<choice criterion_0="15" criterion_1="0"/>
+
+					<choice criterion_0="0" criterion_1="1"/>
+					<choice criterion_0="0" criterion_1="2"/>
+					<choice criterion_0="0" criterion_1="3"/>
+					<choice criterion_0="0" criterion_1="4"/>
+					<choice criterion_0="0" criterion_1="5"/>
+
+					<choice criterion_0="0" criterion_1="0" additional_choices_number="1"/>
+					<choice criterion_0="0" criterion_1="0" additional_choices_number="2"/>
+				</set>
+			</choices>
+		</bonus_game>
+	</bonus_game_list>
+
+	<expanded_config type="expanded_wild" new_symbol_name="WILD" expand_on_line="false" expand_on_reel="true">
+		<trigger_number max="3" min="1"/>
+		<reels>
+			<reel probability="0"/>
+			<reel probability="1"/>
+			<reel probability="1"/>
+			<reel probability="1"/>
+			<reel probability="0"/>
+		</reels>
+		<symbols>
+			<symbol name="default" reel_0="0" reel_1="0" reel_2="0" reel_3="0" reel_4="0"/>
+			<symbol name="WILD" reel_0="0" reel_1="1" reel_2="1" reel_3="1" reel_4="0" symbol_number="1"/>
+		</symbols>
+	</expanded_config>
+</root>

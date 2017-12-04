@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<parameter name="big_win_from" value="20"/>
+
+	<game_speed name="game_speed_1">
+		<pair key="reel_spin_multiplier" value="1.0"/>
+		<pair key="reel_spin_time_adjust" value="0.47"/>
+		<pair key="play_spin_start_anim" value="false"/>
+		<pair key="play_spin_stop_anim" value="true"/>
+		<pair key="displaying_game_winnings_stoppable" value="false"/>
+		<pair key="displaying_big_win_winnings_stoppable" value="false"/>
+		<pair key="use_fast_win_animations" value="false"/>
+		<pair key="fast_win_animations_line_win_coef" value="0"/>
+		<pair key="user_autoplay_play_spin_start_anim" value="false"/>
+		<pair key="user_autoplay_play_spin_stop_anim" value="true"/>
+		<pair key="user_autoplay_play_scatter_sounds" value="true"/>
+		<pair key="user_autoplay_play_scatter_anticipation_anim" value="true"/>
+	</game_speed>
+
+	<game_speed name="game_speed_2">
+		<pair key="reel_spin_multiplier" value="1.35"/>
+		<pair key="reel_spin_time_adjust" value="0.47"/>
+		<pair key="play_spin_start_anim" value="false"/>
+		<pair key="play_spin_stop_anim" value="true"/>
+		<pair key="anticipation_anim_duration_modifier" value="1.1"/>
+		<pair key="stop_spin_sound_on_reel_stop" value="true"/>
+		<pair key="stop_spin_sound_on_reel_fast_stop" value="true"/>
+		<pair key="displaying_game_winnings_stoppable" value="true"/>
+		<pair key="displaying_big_win_winnings_stoppable" value="true"/>
+		<pair key="use_fast_win_animations" value="true"/>
+		<pair key="fast_win_animations_line_win_coef" value="1"/>
+		<pair key="user_autoplay_play_spin_start_anim" value="false"/>
+		<pair key="user_autoplay_play_spin_stop_anim" value="true"/>
+		<pair key="user_autoplay_play_scatter_sounds" value="true"/>
+		<pair key="user_autoplay_play_scatter_anticipation_anim" value="true"/>
+	</game_speed>
+
+	<game_speed name="game_speed_3">
+		<pair key="reel_spin_multiplier" value="2.25"/>
+		<pair key="reel_spin_time_adjust" value="0.47"/>
+		<pair key="play_spin_start_anim" value="false"/>
+		<pair key="play_spin_stop_anim" value="true"/>
+		<pair key="anticipation_anim_duration_modifier" value="1.3"/>
+		<pair key="stop_spin_sound_on_reel_stop" value="true"/>
+		<pair key="stop_spin_sound_on_reel_fast_stop" value="true"/>
+		<pair key="credits_counter_anim_duration_modifier" value="0.75"/>
+		<pair key="displaying_game_winnings_stoppable" value="true"/>
+		<pair key="displaying_big_win_winnings_stoppable" value="true"/>
+		<pair key="use_fast_win_animations" value="true"/>
+		<pair key="fast_win_animations_line_win_coef" value="2"/>
+		<pair key="user_autoplay_play_spin_start_anim" value="false"/>
+		<pair key="user_autoplay_play_spin_stop_anim" value="true"/>
+		<pair key="user_autoplay_play_scatter_sounds" value="false"/>
+		<pair key="user_autoplay_play_scatter_anticipation_anim" value="false"/>
+	</game_speed>
+
+	<game_speed name="game_speed_4">
+		<pair key="reel_spin_multiplier" value="3.55"/>
+		<pair key="reel_spin_time_adjust" value="0.47"/>
+		<pair key="play_spin_start_anim" value="false"/>
+		<pair key="play_spin_stop_anim" value="true"/>
+		<pair key="anticipation_anim_duration_modifier" value="1.5"/>
+		<pair key="stop_spin_sound_on_reel_stop" value="true"/>
+		<pair key="stop_spin_sound_on_reel_fast_stop" value="true"/>
+		<pair key="instant_credits_counter_update" value="true"/>
+		<pair key="displaying_game_winnings_stoppable" value="true"/>
+		<pair key="displaying_big_win_winnings_stoppable" value="true"/>
+		<pair key="use_fast_win_animations" value="true"/>
+		<pair key="fast_win_animations_line_win_coef" value="4"/>
+		<pair key="user_autoplay_play_spin_start_anim" value="false"/>
+		<pair key="user_autoplay_play_spin_stop_anim" value="true"/>
+		<pair key="user_autoplay_play_scatter_sounds" value="false"/>
+		<pair key="user_autoplay_play_scatter_anticipation_anim" value="false"/>
+	</game_speed>
+
+	<game_speed name="game_speed_5">
+		<pair key="reel_spin_multiplier" value="8.0"/>
+		<pair key="reel_spin_time_adjust" value="0.47"/>
+		<pair key="play_spin_start_anim" value="false"/>
+		<pair key="play_spin_stop_anim" value="true"/>
+		<pair key="anticipation_anim_duration_modifier" value="3.5"/>
+		<pair key="stop_spin_sound_on_reel_stop" value="true"/>
+		<pair key="stop_spin_sound_on_reel_fast_stop" value="true"/>
+		<pair key="instant_credits_counter_update" value="true"/>
+		<pair key="displaying_game_winnings_stoppable" value="true"/>
+		<pair key="displaying_big_win_winnings_stoppable" value="true"/>
+		<pair key="use_fast_win_animations" value="true"/>
+		<pair key="fast_win_animations_line_win_coef" value="4"/>
+		<pair key="user_autoplay_play_spin_start_anim" value="false"/>
+		<pair key="user_autoplay_play_spin_stop_anim" value="true"/>
+		<pair key="user_autoplay_play_scatter_sounds" value="false"/>
+		<pair key="user_autoplay_play_scatter_anticipation_anim" value="false"/>
+	</game_speed>
+
+	<game_speed name="game_speed_6">
+		<pair key="reel_spin_multiplier" value="13.0"/>
+		<pair key="reel_spin_time_adjust" value="0.47"/>
+		<pair key="play_spin_start_anim" value="false"/>
+		<pair key="play_spin_stop_anim" value="true"/>
+		<pair key="anticipation_anim_duration_modifier" value="5.0"/>
+		<pair key="stop_spin_sound_on_reel_stop" value="true"/>
+		<pair key="stop_spin_sound_on_reel_fast_stop" value="true"/>
+		<pair key="instant_credits_counter_update" value="true"/>
+		<pair key="displaying_game_winnings_stoppable" value="true"/>
+		<pair key="displaying_big_win_winnings_stoppable" value="true"/>
+		<pair key="use_fast_win_animations" value="true"/>
+		<pair key="fast_win_animations_line_win_coef" value="8"/>
+		<pair key="user_autoplay_play_spin_start_anim" value="false"/>
+		<pair key="user_autoplay_play_spin_stop_anim" value="true"/>
+		<pair key="user_autoplay_play_scatter_sounds" value="false"/>
+		<pair key="user_autoplay_play_scatter_anticipation_anim" value="false"/>
+	</game_speed>
+
+	<additional_libs>
+		<prerquired_item name="winanim" url="symbol_anim.swf"/>
+		<item name="showmode" url="show_mode.swf"/>
+		<item name="bigwin" url="big_win.swf"/>
+		<item name="transitionAnimation" url="transition.swf"/>
+		<item name="gamble" url="gamble.swf"/>
+		<item name="help" url="help.swf"/>
+		<item name="roulette_bonus" url="roulette.swf"/>
+	</additional_libs>
+
+	<banner_config>
+		<!--txtVariable-->
+		<variables>
+			<variable name="max_lines" value="40"/>
+			<variable name="free_spins_multiplier" value="1"/>
+		</variables>
+		<banners>
+			<banner name="reg_banner1" mc_name="banner1" var_name=""/>
+			<banner name="reg_banner2" mc_name="banner2" var_name=""/>
+			<banner name="reg_banner3" mc_name="banner3" var_name=""/>
+			<banner name="reg_banner4" mc_name="banner4" var_name="max_lines"/>
+			<banner name="reg_banner5" mc_name="banner5" var_name="free_spins_multiplier"/>
+			<banner name="reg_banner6" mc_name="banner6" var_name=""/>
+			<banner name="gamble" mc_name="banner_gamble"/>
+			<banner name="logo" mc_name="logo" var_name=""/>
+			<banner name="freespins" mc_name="freespins" var_name=""/>
+		</banners>
+		<cycles regular_logo="logo" regular_spins="reg_banner1;reg_banner2;reg_banner3;reg_banner4" free_spins_logo="freespins" free_spins="reg_banner5;reg_banner6;reg_banner2"/>
+	</banner_config>
+
+	<symbols_which_have_anticipation_animation>
+		<item value="SCATTER"/>
+	</symbols_which_have_anticipation_animation>
+
+	<volume_state>
+		<item value="0.0"/>
+		<item value="0.33"/>
+		<item value="0.66"/>
+		<item value="1.0"/>
+	</volume_state>
+
+	<accented_winnings_animation>
+		<symbol name="default" use_fast_animation_for_repeat="false" use_prepare_animation="false" prepare_animation_is_symbol_dependent="false" prepare_animation_is_mode_dependent="false" prepare_animation_is_position_dependent="false"/>
+	</accented_winnings_animation>
+
+	<regular_winnings_animation>
+		<symbol name="default" use_prepare_animation="false" prepare_animation_is_symbol_dependent="false" prepare_animation_is_mode_dependent="false" prepare_animation_is_position_dependent="false"/>
+	</regular_winnings_animation>
+
+
+	<reels_config>
+		<general revers_time="0" revers_offset="0" over_time="0.2" over_offset="0.4"/>
+		<sounds cycle="SoundReelSpin1;SoundReelSpin2;SoundReelSpin3;SoundReelSpin4;SoundReelSpin5;SoundReelSpin6"/>
+		<reel_params>
+			<reel spin_anim_time="1.5" extra_positions_per_spin="9" spin_start_delay="0" spin_delay_before_blur="0.1"/>
+			<reel spin_anim_time="1.9" extra_positions_per_spin="13" spin_start_delay="0" spin_delay_before_blur="0.12"/>
+			<reel spin_anim_time="2.3" extra_positions_per_spin="17" spin_start_delay="0" spin_delay_before_blur="0.14"/>
+			<reel spin_anim_time="2.7" extra_positions_per_spin="21" spin_start_delay="0" spin_delay_before_blur="0.16"/>
+			<reel spin_anim_time="3.2" extra_positions_per_spin="25" spin_start_delay="0" spin_delay_before_blur="0.18"/>
+		</reel_params>
+	</reels_config>
+</root>

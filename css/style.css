@@ -1,0 +1,240 @@
+body {
+	background:#3f3f3f url(../img/components/pagebg.jpg) repeat-x;
+	margin:0;
+	padding:0;
+	color:#fff;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+a {
+	color:#5599d6;
+	text-decoration:underline;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+img {
+	border:0 solid #000;
+	display:block;
+}
+
+p {
+	margin:0 0 15px 0;
+}
+
+#body {
+	overflow:hidden;
+	z-index:20;
+}
+
+.columnA {
+	margin-right:10px;
+}
+
+#contentWrapper {
+	position:relative;
+	margin:0 auto;
+	width:774px;
+}
+
+.descriptionBox {
+	position:relative;
+	margin:10px 10px;
+	font-size:14px;
+	overflow:hidden;
+}
+
+.descCA {
+	position:relative;
+	float:left;
+	color:#a7a7a7;
+	width:445px;
+	display:none;
+}
+
+.descCB {
+	position:relative;
+	color:#fff;
+}
+
+#footer {
+	text-align:center;
+	padding:20px 0 30px 0;
+	font-size:11px;
+}
+
+#header {
+	position:relative;
+	height:146px;
+	z-index:100;
+}
+
+.imageWrapper {
+	position:relative;
+	background:#5d5d5d;
+	border-radius:20px;
+	padding:10px;
+	margin-bottom:20px;
+	overflow:hidden;
+}
+
+.imageWrapper .imageBox {
+	border:2px solid #000;
+	margin:0;
+	padding:0;
+	border-radius:15px;
+	overflow:hidden;
+}
+
+.imageBox img {
+	position:absolute;
+	border-radius:13px;
+	background:#3f3f3f;
+	z-index:20;
+}
+
+#logo {
+	position:absolute;
+	top:48px;
+	left:10px;
+}
+
+#menu {
+	position:absolute;
+	top:60px;
+	right:0;
+	margin:0;
+	padding:0;
+	z-index:1000;
+}
+
+#menu ul {
+	list-style:none;
+	font-size:18px;
+	margin:0;
+	padding:0;
+}
+
+#menu ul li {
+	position:relative;
+	float:left;
+}
+
+#menu ul li a:hover {
+	background-color:#5d5d5d;
+}
+
+#menu ul li a {
+	color:#fff;
+	text-decoration:none;
+	display: block;
+	padding:10px 25px;
+	border:1px solid #5d5d5d;
+	border-radius:13px;
+	background:#3f3f3f;
+}
+
+#menu ul li a.active {
+	background-color:#5d5d5d;
+}
+
+#menu ul li ul {
+	position:absolute;
+	display:none;
+	width:110px;
+	padding-top:3px;
+	background:rgba(63,63,63,0);
+}
+
+#menu ul li ul li {
+	clear:both;	
+	padding:1px;
+}
+
+#menu ul li ul li a {
+	width:100px;
+	font-size:14px;
+}
+
+#menu ul li:hover ul { 
+	display: block; 
+}
+
+.mini {
+	width:362px;
+	height:228px;
+	float:left;
+}
+
+.mini .imageBox {
+	width:358px;
+	height:224px;
+}
+
+#playBtnBox {
+	position:relative;
+	height:35px;
+}
+
+#playBtn {
+	position:absolute;
+	right:0;
+	background:url(../img/components/play_btn.png) no-repeat;
+	height:60px;
+	width:257px;
+	cursor:pointer;
+}
+
+#playBtn:hover {
+	background:url(../img/components/play_btn_over.png) no-repeat;
+}
+
+#playBtn span {
+	position:absolute;
+	top:15px;
+	width:100%;
+	color:#ffdb00;
+	font-size:24px;
+	text-align:center;
+	text-decoration:none;
+}
+
+.screenshotsBox {
+	position:relative;
+	margin:0 10px 20px;
+	overflow:hidden;
+}
+
+.scrCA {
+	position:relative;
+	float:left;
+	margin-top:30px;
+}
+
+.scrCB {
+	position:relative;
+	float:right;
+	margin-top:30px;
+}
+
+#slideShow  {
+	height:374px;
+	width:754px;
+}
+
+#slideShow  .imageBox {
+	height:370px;
+	width:750px;
+	cursor:pointer;
+}
+
+.titleBox {
+	position:relative;
+	margin:20px 10px 0;
+	color:#a7a7a7;
+	border-bottom:1px solid #a7a7a7;
+	font-size:16px;
+	padding-bottom:5px;
+}

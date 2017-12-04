@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<bonus_game_list>
+		<bonus_game name="bonus_game_1 (dice)" id="0" type="0">
+			<outcomes>
+				<outcome name="3_throws" result_type="free_spins" free_games="5" free_games_multiplier="1"/>
+			</outcomes>
+			<levels>
+				<level name="Level 1" min_pick_number="3" max_pick_number="3" requested_sequence_length="6">
+					<limit min_value="1" max_value="6"/>
+				</level>
+			</levels>
+		</bonus_game>
+
+		<bonus_game name="bonus_game_2 (ghosts)" id="1" type="1">
+			<outcomes>
+				<outcome name="prize" result_type="credits"/>
+			</outcomes>
+			<levels>
+				<level name="Level 1" min_pick_number="4" max_pick_number="7" requested_sequence_length="8">
+					<limit min_value="4" max_value="12"/>
+				</level>
+			</levels>
+		</bonus_game>
+
+		<bonus_game name="bonus_game_1 (dice)" id="2" type="0">
+			<outcomes>
+				<outcome name="4_throws" result_type="free_spins" free_games="5" free_games_multiplier="1"/>
+			</outcomes>
+			<levels>
+				<level name="Level 1" min_pick_number="4" max_pick_number="4" requested_sequence_length="8">
+					<limit min_value="1" max_value="6"/>
+				</level>
+			</levels>
+		</bonus_game>
+
+		<bonus_game name="bonus_game_1 (dice)" id="3" type="0">
+			<outcomes>
+				<outcome name="5_throws" result_type="free_spins" free_games="5" free_games_multiplier="1"/>
+			</outcomes>
+			<levels>
+				<level name="Level 1" min_pick_number="5" max_pick_number="5" requested_sequence_length="10">
+					<limit min_value="1" max_value="6"/>
+				</level>
+			</levels>
+		</bonus_game>
+	</bonus_game_list>
+
+
+	<expanded_config new_symbol_name="WILD" expand_on_line="false" expand_on_reel="false">
+		<trigger_number max="5" min="1"/>
+		<reels>
+			<reel probability="1"/>
+			<reel probability="1"/>
+			<reel probability="1"/>
+			<reel probability="1"/>
+			<reel probability="1"/>
+		</reels>
+		<symbols>
+			<symbol name="WILD" reel_0="0" reel_1="0" reel_2="0" reel_3="0" reel_4="0"/>
+			<symbol name="SCATTER" reel_0="0" reel_1="0" reel_2="0" reel_3="0" reel_4="0"/>
+			<symbol name="default" reel_0="0.2" reel_1="0.2" reel_2="0.2" reel_3="0.2" reel_4="0.2"/>
+		</symbols>
+	</expanded_config>
+</root>

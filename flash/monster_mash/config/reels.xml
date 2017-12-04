@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<reels_layout game_id="ZZ_C3" version="007" payout_id="86">
+		<global_settings no_of_visible_lines_per_reel="3" maximum_multiplier_per_line="10" any_symbol="" wild_symbols_list="WILD"/>
+		<reel>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="PIC1"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="WILD"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC1"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="SCATTER"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="PIC1"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="KING"/>
+		</reel>
+
+		<reel>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="PIC1"/>
+			<reel_position symbol="WILD"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="SCATTER"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="PIC1"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="PIC4"/>
+		</reel>
+
+		<reel>
+
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="PIC1"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="WILD"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="SCATTER"/>
+			<reel_position symbol="JACK"/>
+		</reel>
+
+		<reel>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC1"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="PIC1"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="WILD"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC1"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="SCATTER"/>
+			<reel_position symbol="ACE"/>
+		</reel>
+
+		<reel>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="PIC1"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="PIC1"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="WILD"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="PIC3"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="SCATTER"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="ACE"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="NINE"/>
+			<reel_position symbol="KING"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="PIC4"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="PIC2"/>
+			<reel_position symbol="TEN"/>
+			<reel_position symbol="QUEEN"/>
+			<reel_position symbol="JACK"/>
+			<reel_position symbol="PIC3"/>
+		</reel>
+	</reels_layout>
+</root>

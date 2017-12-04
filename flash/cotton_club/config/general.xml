@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Response Status="0">
+		<GeneralSettings>
+			<GeneralSettings AssetNumber="1234567890" ShowMode="true" UserAutoPlay="true" LogLevel="TRACE"/>
+			<!-- OnScreenCashout="true"  ActiveSmartCard="true" SerialNumber="" -->
+		</GeneralSettings>
+
+		<GeneralSettings_Locale>
+			<Locale Currency="USD" Currency_Code="en_US">
+				<!-- Region="America" Zone="New_York" UseDST="true" Name="USA" Code="en_US"  -->
+				<Currency Symbol="$" SymbolInFront="true" MinorSymbol="¢" FractionDigits="2" DecimalSeparator="." GroupingSeparator="," GroupingSize="3"/>
+			</Locale>
+			<!-- Name="US dollar" UnitName="dollar" MinorUnitName="cent"  Code="USD"  -->
+		</GeneralSettings_Locale>
+
+		<DoubleUp_Settings>
+			<DoubleUp Enabled="true" MaxBets="10" MaxBetsLimit="10" MaxTime="0" MaxWinning="0"/>
+		</DoubleUp_Settings>
+
+		<Games_Settings>
+			<GameSettings>
+				<Game AllowDoubleUp="true">
+					<GameSpeed AllowBigWinSkip="BY_SPEED" AllowWinAnimationSkip="BY_SPEED" DefaultSpeed="game_speed_3" Autoplay="true" AutoplaySpeed="game_speed_5" FreeSpinSpeed="game_speed_2" PlayerSelectable="true">
+						<Speed Id="game_speed_1" Name="4.0" PlayerAvailable="true"/>
+						<Speed Id="game_speed_2" Name="3.0" PlayerAvailable="true"/>
+						<Speed Id="game_speed_3" Name="2.0" PlayerAvailable="true"/>
+						<Speed Id="game_speed_4" Name="1.5" PlayerAvailable="true"/>
+						<Speed Id="game_speed_5" Name="1.0" PlayerAvailable="true"/>
+						<Speed Id="game_speed_6" Name="0.5" PlayerAvailable="true"/>
+					</GameSpeed>
+				</Game>
+			</GameSettings>
+		</Games_Settings>
+
+		<SoundSettings>
+			<Sound Volume="12" Default="12" SubwooferEnabled="true" UserChange="false" UserMin="0" UserMax="24" UserMid="12">
+				<SoundDsp SeparationFrequency="300.0" HighPassCutoff="10.4" LowFrequencyGain="1.0" HighFrequencyGain="1.0" SubwooferBoost="0.5" MidfilterFreq="1000.0" MidfilterRange="1.0" MidfilterGain="1.0"/>
+				<SoundDspCalc LowFrequencyGainCoef="2.0" LowFrequencyGainMax="1.0" LowFrequencyGainMin="0.5" LowFrequencyGainDelta="0.95" LowFrequencyGainOffset="10.0" SeparationFrequencyRecalc="false" SeparationFrequencyFactor="2.0"
+				              SeparationFrequencyOffset="200.0" HighPassCutoffRecalc="true" HighPassCutoffFactor="0.2" HighPassCutoffOffset="40.0"/>
+				<SoundAlsa AlsaMaster="95" AlsaLFE="95" AlsaFront="95"/>
+			</Sound>
+		</SoundSettings>
+
+		<DenominationList>
+			<Denominations>
+				<Denomination Value="1"/>
+				<Denomination Value="2"/>
+				<Denomination Value="5"/>
+				<Denomination Value="10"/>
+				<Denomination Value="20"/>
+				<Denomination Value="25"/>
+				<Denomination Value="50"/>
+				<Denomination Value="100"/>
+			</Denominations>
+		</DenominationList>
+
+		<CurrentState>
+			<State name="idle">
+				<Params/>
+			</State>
+		</CurrentState>
+
+		<FreeReelsState>
+			<CurrentReelPos positions="29,13,33,16,3">
+				<!-- positions will be removed -->
+				<Line symbols="ACE,PIC3,KING,PIC3,PIC2"/>
+				<Line symbols="TEN,TEN,NINE,ACE,NINE"/>
+				<Line symbols="PIC1,PIC2,SCATTER,NINE,ACE"/>
+			</CurrentReelPos>
+		</FreeReelsState>
+
+		<ReelsState>
+			<CurrentReelPos positions="29,13,33,16,3">
+				<!-- positions will be removed -->
+				<Line symbols="ACE,PIC3,KING,PIC3,PIC2"/>
+				<Line symbols="TEN,TEN,NINE,ACE,NINE"/>
+				<Line symbols="PIC1,PIC2,SCATTER,NINE,ACE"/>
+			</CurrentReelPos>
+		</ReelsState>
+
+		<BetSettings>
+			<BetLimits MaxBetPerLine="10" MaxNumLines="40" MustPlayAllLines="false"/>
+			<CurrentBet BetPerLine="10" LinesInBet="40" Denomination="100"/>
+			<Balance Cash="4000000"/>
+		</BetSettings>
+
+		<MathSettings>
+			<Settings LinesPerReel="3" ScaterSymbolsList="SCATTER" WildSymbolsList="WILD" SymbolsList="WILD;PIC1;PIC2;PIC3;PIC4;ACE;KING;QUEEN;JACK;TEN;NINE;SCATTER" LTRWinnings="true" RTLWinnings="false"/>
+		</MathSettings>
+	</Response>
+</root>

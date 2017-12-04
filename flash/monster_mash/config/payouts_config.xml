@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<payout_definitions>
+		<payout_def value="2500" payoutID="5xWILD"/>
+		<payout_def value="500" payoutID="4xWILD"/>
+		<payout_def value="150" payoutID="3xWILD"/>
+		<payout_def value="1000" payoutID="5xPIC1"/>
+		<payout_def value="250" payoutID="4xPIC1"/>
+		<payout_def value="100" payoutID="3xPIC1"/>
+		<payout_def value="750" payoutID="5xPIC2"/>
+		<payout_def value="250" payoutID="4xPIC2"/>
+		<payout_def value="100" payoutID="3xPIC2"/>
+		<payout_def value="500" payoutID="5xPIC3"/>
+		<payout_def value="200" payoutID="4xPIC3"/>
+		<payout_def value="75" payoutID="3xPIC3"/>
+		<payout_def value="300" payoutID="5xPIC4"/>
+		<payout_def value="150" payoutID="4xPIC4"/>
+		<payout_def value="50" payoutID="3xPIC4"/>
+		<payout_def value="250" payoutID="5xACE"/>
+		<payout_def value="100" payoutID="4xACE"/>
+		<payout_def value="25" payoutID="3xACE"/>
+		<payout_def value="200" payoutID="5xKING"/>
+		<payout_def value="75" payoutID="4xKING"/>
+		<payout_def value="25" payoutID="3xKING"/>
+		<payout_def value="150" payoutID="5xQUEEN"/>
+		<payout_def value="50" payoutID="4xQUEEN"/>
+		<payout_def value="20" payoutID="3xQUEEN"/>
+		<payout_def value="100" payoutID="5xJACK"/>
+		<payout_def value="25" payoutID="4xJACK"/>
+		<payout_def value="10" payoutID="3xJACK"/>
+		<payout_def value="100" payoutID="5xTEN"/>
+		<payout_def value="25" payoutID="4xTEN"/>
+		<payout_def value="10" payoutID="3xTEN"/>
+		<payout_def value="100" payoutID="5xNINE"/>
+		<payout_def value="25" payoutID="4xNINE"/>
+		<payout_def value="5" payoutID="3xNINE"/>
+		<payout_def adjacent="false" value="100" triggers_bonus="true" multiply_total_bet="true" payoutID="5xSCATTER">
+			<bonus_choice>
+				<set name="default" probability="1">
+					<choice name="bonus_game_1 (dice)" type="bonus_game" bonus_game_id="3" probability="100"/>
+				</set>
+			</bonus_choice>
+		</payout_def>
+
+		<payout_def adjacent="false" value="25 (dice)" triggers_bonus="true" multiply_total_bet="true" payoutID="4xSCATTER">
+			<bonus_choice>
+				<set name="default" probability="1">
+					<choice name="bonus_game_1 (dice)" type="bonus_game" bonus_game_id="2" probability="100"/>
+				</set>
+			</bonus_choice>
+		</payout_def>
+
+		<payout_def adjacent="false" value="0" triggers_bonus="true" multiply_total_bet="true" payoutID="3xSCATTER">
+			<bonus_choice>
+				<set name="default" probability="1">
+					<choice name="bonus_game_1 (dice)" type="bonus_game" bonus_game_id="0" probability="1" max_instance_number="1"/>
+					<choice name="bonus_game_2 (ghosts)" type="bonus_game" bonus_game_id="5" probability="1" max_instance_number="1"/>
+					<choice name="bonus_game_2 (ghosts)" type="bonus_game" bonus_game_id="4" probability="1" max_instance_number="1"/>
+				</set>
+			</bonus_choice>
+		</payout_def>
+	</payout_definitions>
+	<fs_payout_definitions>
+		<payout_def value="2500" payoutID="5xWILD"/>
+		<payout_def value="500" payoutID="4xWILD"/>
+		<payout_def value="150" payoutID="3xWILD"/>
+		<payout_def value="1000" payoutID="5xPIC1"/>
+		<payout_def value="250" payoutID="4xPIC1"/>
+		<payout_def value="100" payoutID="3xPIC1"/>
+		<payout_def value="750" payoutID="5xPIC2"/>
+		<payout_def value="250" payoutID="4xPIC2"/>
+		<payout_def value="100" payoutID="3xPIC2"/>
+		<payout_def value="500" payoutID="5xPIC3"/>
+		<payout_def value="200" payoutID="4xPIC3"/>
+		<payout_def value="75" payoutID="3xPIC3"/>
+		<payout_def value="300" payoutID="5xPIC4"/>
+		<payout_def value="150" payoutID="4xPIC4"/>
+		<payout_def value="50" payoutID="3xPIC4"/>
+		<payout_def value="250" payoutID="5xACE"/>
+		<payout_def value="100" payoutID="4xACE"/>
+		<payout_def value="25" payoutID="3xACE"/>
+		<payout_def value="200" payoutID="5xKING"/>
+		<payout_def value="75" payoutID="4xKING"/>
+		<payout_def value="25" payoutID="3xKING"/>
+		<payout_def value="150" payoutID="5xQUEEN"/>
+		<payout_def value="50" payoutID="4xQUEEN"/>
+		<payout_def value="20" payoutID="3xQUEEN"/>
+		<payout_def value="100" payoutID="5xJACK"/>
+		<payout_def value="25" payoutID="4xJACK"/>
+		<payout_def value="10" payoutID="3xJACK"/>
+		<payout_def value="100" payoutID="5xTEN"/>
+		<payout_def value="25" payoutID="4xTEN"/>
+		<payout_def value="10" payoutID="3xTEN"/>
+		<payout_def value="100" payoutID="5xNINE"/>
+		<payout_def value="25" payoutID="4xNINE"/>
+		<payout_def value="5" payoutID="3xNINE"/>
+
+		<payout_def adjacent="false" value="100" triggers_bonus="true" multiply_total_bet="true" payoutID="5xSCATTER">
+			<bonus_choice>
+				<set name="default" probability="1">
+					<choice name="free_spins" type="free_spins" free_spins_number="5" free_spins_multiplier="0" probability="1"/>
+				</set>
+			</bonus_choice>
+		</payout_def>
+
+		<payout_def adjacent="false" value="25" triggers_bonus="true" multiply_total_bet="true" payoutID="4xSCATTER">
+			<bonus_choice>
+				<set name="default" probability="1">
+					<choice name="free_spins" type="free_spins" free_spins_number="4" free_spins_multiplier="0" probability="1"/>
+				</set>
+			</bonus_choice>
+		</payout_def>
+
+		<payout_def adjacent="false" value="0" triggers_bonus="true" multiply_total_bet="true" payoutID="3xSCATTER">
+			<bonus_choice>
+				<set name="default" probability="1">
+					<choice name="free_spins" type="free_spins" free_spins_number="3" free_spins_multiplier="0" probability="1"/>
+				</set>
+			</bonus_choice>
+		</payout_def>
+
+		<payout_def adjacent="false" value="0" triggers_bonus="true" multiply_total_bet="true" payoutID="2xSCATTER">
+			<bonus_choice>
+				<set name="default" probability="1">
+					<choice name="free_spins" type="free_spins" free_spins_number="2" free_spins_multiplier="0" probability="1"/>
+				</set>
+			</bonus_choice>
+		</payout_def>
+
+		<payout_def adjacent="false" value="0" triggers_bonus="true" multiply_total_bet="true" payoutID="1xSCATTER">
+			<bonus_choice>
+				<set name="default" probability="1">
+					<choice name="free_spins" type="free_spins" free_spins_number="1" free_spins_multiplier="0" probability="1"/>
+				</set>
+			</bonus_choice>
+		</payout_def>
+	</fs_payout_definitions>
+</root>

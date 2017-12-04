@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<bonus_game_list>
+		<bonus_game id="0" type="0" requested_sequence_length="0">
+			<outcome name="3_throws" result_type="free_spins" free_games="5" free_games_multiplier="1"/>
+			<levels>
+				<level name="Level 1" min_pick_number="3" max_pick_number="3">
+					<limit min_value="0" max_value="1"/>
+				</level>
+			</levels>
+		</bonus_game>
+
+		<bonus_game id="1" type="1">
+			<outcome name="prize" result_type="credits"/>
+			<levels>
+				<level name="Level 1" min_pick_number="4" max_pick_number="5" requested_sequence_length="5">
+					<limit min_value="5" max_value="25"/>
+				</level>
+			</levels>
+		</bonus_game>
+
+		<bonus_game id="2" type="0" requested_sequence_length="4">
+			<outcomes>
+				<outcome name="4_throws" prob_n="1" prob_d="1" result_type="free_spins" free_games="5" free_games_multiplier="1"/>
+			</outcomes>
+			<levels>
+				<level name="Level 1" min_pick_number="4" max_pick_number="4">
+					<limit min_value="0" max_value="1"/>
+				</level>
+			</levels>
+		</bonus_game>
+
+		<bonus_game id="3" type="0" requested_sequence_length="5">
+			<outcome name="5_throws" prob_n="1" prob_d="1" result_type="free_spins" free_games="5" free_games_multiplier="1"/>
+			<levels>
+				<level name="Level 1" min_pick_number="5" max_pick_number="5">
+					<limit min_value="0" max_value="1"/>
+				</level>
+			</levels>
+		</bonus_game>
+	</bonus_game_list>
+
+	<expanded_config new_symbol_name="WILD" expand_on_line="false" expand_on_reel="true" type="expanded_wild" special_position="true">
+		<trigger_number max="1" min="1"/>
+		<reels>
+			<reel probability="1"/>
+			<reel probability="1"/>
+			<reel probability="1"/>
+			<reel probability="1"/>
+			<reel probability="1"/>
+		</reels>
+		<symbols>
+			<symbol name="default" reel_0="0" reel_1="0" reel_2="0" reel_3="0" reel_4="0"/>
+			<symbol name="WILD" reel_0="1" reel_1="1" reel_2="1" reel_3="1" reel_4="1"/>
+		</symbols>
+	</expanded_config>
+</root>

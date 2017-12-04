@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<pay_lines_definitions>
+		<pay_line_def>
+			<!-- 1 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="1" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 2 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 3 -->
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="2" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 4 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 5 -->
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 6 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="1" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 7 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="2" column="3"/>
+			<pay_line_position line="1" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 8 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="2" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 9 -->
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 10 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="2" column="3"/>
+			<pay_line_position line="1" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 11 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="1" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 12 -->
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 13 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 14 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 15 -->
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 16 -->
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="2" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 17 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 18 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="2" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 19 -->
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 20 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="2" column="3"/>
+			<pay_line_position line="1" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 21 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="1" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 22 -->
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="2" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 23 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 24 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="1" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 25 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="1" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 26 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="2" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 27 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="2" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 28 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 29 -->
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 30 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="1" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 31 -->
+			<pay_line_position line="1" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="2" column="3"/>
+			<pay_line_position line="1" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 32 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 33 -->
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 34 -->
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 35 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 36 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="2" column="2"/>
+			<pay_line_position line="2" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 37 -->
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="1" column="1"/>
+			<pay_line_position line="0" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 38 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="0" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="2" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 39 -->
+
+			<pay_line_position line="2" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="1" column="3"/>
+			<pay_line_position line="0" column="4"/>
+		</pay_line_def>
+		<pay_line_def>
+			<!-- 40 -->
+			<pay_line_position line="0" column="0"/>
+			<pay_line_position line="2" column="1"/>
+			<pay_line_position line="1" column="2"/>
+			<pay_line_position line="0" column="3"/>
+			<pay_line_position line="1" column="4"/>
+		</pay_line_def>
+	</pay_lines_definitions>
+</root>

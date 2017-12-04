@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<payout_definitions>
+		<payout_def value="0" payoutID="3xSCATTER"/>
+		<payout_def value="5000" payoutID="5xWILD"/>
+		<payout_def value="1000" payoutID="4xWILD"/>
+		<payout_def value="500" payoutID="3xWILD"/>
+		<payout_def value="5000" payoutID="5xPIC1"/>
+		<payout_def value="500" payoutID="4xPIC1"/>
+		<payout_def value="250" payoutID="3xPIC1"/>
+		<payout_def value="1000" payoutID="5xPIC2"/>
+		<payout_def value="400" payoutID="4xPIC2"/>
+		<payout_def value="200" payoutID="3xPIC2"/>
+		<payout_def value="750" payoutID="5xPIC3"/>
+		<payout_def value="250" payoutID="4xPIC3"/>
+		<payout_def value="150" payoutID="3xPIC3"/>
+		<payout_def value="500" payoutID="5xPIC4"/>
+		<payout_def value="200" payoutID="4xPIC4"/>
+		<payout_def value="100" payoutID="3xPIC4"/>
+		<payout_def value="250" payoutID="5xACE"/>
+		<payout_def value="100" payoutID="4xACE"/>
+		<payout_def value="50" payoutID="3xACE"/>
+		<payout_def value="200" payoutID="5xKING"/>
+		<payout_def value="50" payoutID="4xKING"/>
+		<payout_def value="50" payoutID="3xKING"/>
+		<payout_def value="200" payoutID="5xQUEEN"/>
+		<payout_def value="50" payoutID="4xQUEEN"/>
+		<payout_def value="25" payoutID="3xQUEEN"/>
+		<payout_def value="200" payoutID="5xJACK"/>
+		<payout_def value="50" payoutID="4xJACK"/>
+		<payout_def value="10" payoutID="3xJACK"/>
+		<payout_def value="200" payoutID="5xTEN"/>
+		<payout_def value="25" payoutID="4xTEN"/>
+		<payout_def value="5" payoutID="3xTEN"/>
+
+		<payout_def adjacent="false" value="0" payoutID="3xSCATTER" multiply_total_bet="true" triggers_bonus="true" >
+            <bonus_choice>
+                <set name="" probability="1">
+					<!-- bonus_game_id must be different -->
+                    <choice name="bonus_game_1 (race)" type="bonus_game" bonus_game_id="0" probability="1" max_instance_number="1" />
+                    <choice name="bonus_game_2 (pick_stop)" type="bonus_game" bonus_game_id="1" probability="1" max_instance_number="1" />
+                    <choice name="bonus_game_2 (pick_stop)" type="bonus_game" bonus_game_id="4" probability="1" max_instance_number="1" />
+                </set>
+            </bonus_choice>
+        </payout_def>
+	</payout_definitions>
+</root>

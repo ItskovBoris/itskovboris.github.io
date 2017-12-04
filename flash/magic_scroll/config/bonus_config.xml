@@ -1,0 +1,56 @@
+
+<root>
+	<bonus_game_list>
+		<bonus_game id="0" type="0" criterion_number="1" choice_generation_mode="random_choice" outcome_generation_mode="predetermined_outcome">
+			<outcomes>
+				<outcome name="fg_10_PIC1" result_type="free_spins" prob_n="3" prob_d="29" free_games="10" free_games_multiplier="1" special_symbol="PIC1"/>
+				<outcome name="fg_10_PIC2" result_type="free_spins" prob_n="3" prob_d="29" free_games="10" free_games_multiplier="1" special_symbol="PIC2"/>
+				<outcome name="fg_10_PIC3" result_type="free_spins" prob_n="3" prob_d="29" free_games="10" free_games_multiplier="1" special_symbol="PIC3"/>
+				<outcome name="fg_10_PIC4" result_type="free_spins" prob_n="3" prob_d="29" free_games="10" free_games_multiplier="1" special_symbol="PIC4"/>
+				<outcome name="fg_10_ACE" result_type="free_spins" prob_n="3" prob_d="29" free_games="10" free_games_multiplier="1" special_symbol="ACE"/>
+				<outcome name="fg_10_KING" result_type="free_spins" prob_n="3" prob_d="29" free_games="10" free_games_multiplier="1" special_symbol="KING"/>
+				<outcome name="fg_10_QUEEN" result_type="free_spins" prob_n="4" prob_d="29" free_games="10" free_games_multiplier="1" special_symbol="QUEEN"/>
+				<outcome name="fg_10_JACK" result_type="free_spins" prob_n="4" prob_d="29" free_games="10" free_games_multiplier="1" special_symbol="JACK"/>
+				<outcome name="fg_10_TEN" result_type="free_spins" prob_n="3" prob_d="29" free_games="10" free_games_multiplier="1" special_symbol="TEN"/>
+			</outcomes>
+			<levels>
+				<level name="Level 1" min_pick_number="1" max_pick_number="1" adjust_choice_sequence_by_user_pick_sequence="false">
+					<!-- 0 -->
+					<choice_set_map>
+						<choice_set_id_list default="true">
+							<item choice_set_id="0" prob_n="1" prob_d="1"/>
+						</choice_set_id_list>
+					</choice_set_map>
+				</level>
+			</levels>
+			<choices>
+				<set>
+					<choice criterion_0="10" criterion_1="1" prob_n="1" prob_d="1"/>
+				</set>
+			</choices>
+		</bonus_game>
+	</bonus_game_list>
+
+	<expanded_config new_symbol_name="WILD" expand_on_line="false" expand_on_reel="true" type="expanded_wild">
+		<trigger_number max="5" min="1"/>
+		<reels>
+			<reel probability="1"/>
+			<reel probability="1"/>
+			<reel probability="1"/>
+			<reel probability="1"/>
+			<reel probability="1"/>
+		</reels>
+		<symbols>
+			<symbol name="default" reel_0="1" reel_1="1" reel_2="1" reel_3="1" reel_4="1"/>
+			<symbol name="PIC1" reel_0="1" reel_1="1" reel_2="1" reel_3="1" reel_4="1" symbol_number="2"/>
+			<symbol name="PIC2" reel_0="1" reel_1="1" reel_2="1" reel_3="1" reel_4="1" symbol_number="2"/>
+			<symbol name="PIC3" reel_0="1" reel_1="1" reel_2="1" reel_3="1" reel_4="1" symbol_number="2"/>
+			<symbol name="PIC4" reel_0="1" reel_1="1" reel_2="1" reel_3="1" reel_4="1" symbol_number="2"/>
+			<symbol name="ACE" reel_0="1" reel_1="1" reel_2="1" reel_3="1" reel_4="1" symbol_number="3"/>
+			<symbol name="KING" reel_0="1" reel_1="1" reel_2="1" reel_3="1" reel_4="1" symbol_number="3"/>
+			<symbol name="QUEEN" reel_0="1" reel_1="1" reel_2="1" reel_3="1" reel_4="1" symbol_number="3"/>
+			<symbol name="JACK" reel_0="1" reel_1="1" reel_2="1" reel_3="1" reel_4="1" symbol_number="3"/>
+			<symbol name="TEN" reel_0="1" reel_1="1" reel_2="1" reel_3="1" reel_4="1" symbol_number="3"/>
+		</symbols>
+	</expanded_config>
+</root>

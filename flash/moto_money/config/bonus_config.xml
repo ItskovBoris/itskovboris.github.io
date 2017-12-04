@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<bonus_game_list>
+		<bonus_game id="0" type="0" criterion_number="1" choice_generation_mode="generated_choice_sequence" outcome_generation_mode="predetermined_outcome" points_prize_type="wage_multiplier">
+            <outcomes>
+                <outcome name="1_place_250" result_type="credits" prob_n="1" prob_d="72" prize="250" place="0"/>
+                <outcome name="1_place_200" result_type="credits" prob_n="2" prob_d="72" prize="200" place="0"/>
+                <outcome name="1_place_150" result_type="credits" prob_n="3" prob_d="72" prize="150" place="0"/>
+                <outcome name="1_place_125" result_type="credits" prob_n="5" prob_d="72" prize="125" place="0"/>
+                <outcome name="1_place_100" result_type="credits" prob_n="5" prob_d="72" prize="100" place="0"/>
+                <outcome name="2_place_75" result_type="credits" prob_n="2" prob_d="72" prize="75" place="1"/>
+                <outcome name="2_place_50" result_type="credits" prob_n="8" prob_d="72" prize="50" place="1"/>
+                <outcome name="2_place_45" result_type="credits" prob_n="8" prob_d="72" prize="45" place="1"/>
+                <outcome name="2_place_40" result_type="credits" prob_n="8" prob_d="72" prize="40" place="1"/>
+                <outcome name="2_place_30" result_type="credits" prob_n="8" prob_d="72" prize="30" place="1"/>
+                <outcome name="3_place_25" result_type="credits" prob_n="4" prob_d="72" prize="25" place="2"/>
+                <outcome name="3_place_24" result_type="credits" prob_n="5" prob_d="72" prize="24" place="2"/>
+                <outcome name="3_place_22" result_type="credits" prob_n="5" prob_d="72" prize="22" place="2"/>
+                <outcome name="3_place_21" result_type="credits" prob_n="4" prob_d="72" prize="21" place="2"/>
+                <outcome name="3_place_20" result_type="credits" prob_n="4" prob_d="72" prize="20" place="2"/>
+            </outcomes>
+            <levels>
+                <level name="Level 1" min_pick_number="1" max_pick_number="1" requested_sequence_length="3" adjust_choice_sequence_by_user_pick_sequence="true" >
+                    <choice_set_map>
+                        <choice_set_id_list default="true" >
+                            <item choice_set_id="0" prob_n="1" prob_d="1" />
+                        </choice_set_id_list>
+                    </choice_set_map>
+                </level>
+            </levels>
+            <choices>
+                <set>
+                    <!-- criterion_0 is the race position -->
+                    <choice criterion_0="0" prob_n="1" prob_d="3" max_instance_number="1" />
+                    <choice criterion_0="1" prob_n="1" prob_d="3" max_instance_number="1" />
+                    <choice criterion_0="2" prob_n="1" prob_d="3" max_instance_number="1" />
+                </set>
+            </choices>
+        </bonus_game>
+
+        <bonus_game id="1" type="1" criterion_number="2" choice_generation_mode="generated_choice_sequence" outcome_generation_mode="predetermined_outcome" >
+            <outcomes>
+                <outcome name="fg_10_2" result_type="free_spins" prob_n="1" prob_d="50" free_games="10" free_games_multiplier="2"/>
+                <outcome name="fg_10_3" result_type="free_spins" prob_n="1" prob_d="50" free_games="10" free_games_multiplier="3"/>
+                <outcome name="fg_11_2" result_type="free_spins" prob_n="2" prob_d="50" free_games="11" free_games_multiplier="2"/>
+                <outcome name="fg_11_4" result_type="free_spins" prob_n="1" prob_d="50" free_games="11" free_games_multiplier="4"/>
+                <outcome name="fg_12_2" result_type="free_spins" prob_n="1" prob_d="50" free_games="12" free_games_multiplier="2"/>
+                <outcome name="fg_12_3" result_type="free_spins" prob_n="1" prob_d="50" free_games="12" free_games_multiplier="3"/>
+                <outcome name="fg_13_2" result_type="free_spins" prob_n="3" prob_d="50" free_games="13" free_games_multiplier="2"/>
+                <outcome name="fg_13_3" result_type="free_spins" prob_n="2" prob_d="50" free_games="13" free_games_multiplier="3"/>
+                <outcome name="fg_14_2" result_type="free_spins" prob_n="2" prob_d="50" free_games="14" free_games_multiplier="2"/>
+                <outcome name="fg_15_2" result_type="free_spins" prob_n="6" prob_d="50" free_games="15" free_games_multiplier="2"/>
+                <outcome name="fg_15_3" result_type="free_spins" prob_n="2" prob_d="50" free_games="15" free_games_multiplier="3"/>
+                <outcome name="fg_16_2" result_type="free_spins" prob_n="6" prob_d="50" free_games="16" free_games_multiplier="2"/>
+                <outcome name="fg_17_3" result_type="free_spins" prob_n="1" prob_d="50" free_games="17" free_games_multiplier="3"/>
+                <outcome name="fg_18_2" result_type="free_spins" prob_n="9" prob_d="50" free_games="18" free_games_multiplier="2"/>
+                <outcome name="fg_19_3" result_type="free_spins" prob_n="1" prob_d="50" free_games="19" free_games_multiplier="3"/>
+                <outcome name="fg_20_2" result_type="free_spins" prob_n="8" prob_d="50" free_games="20" free_games_multiplier="2"/>
+                <outcome name="fg_20_3" result_type="free_spins" prob_n="2" prob_d="50" free_games="20" free_games_multiplier="3"/>
+                <outcome name="fg_20_5" result_type="free_spins" prob_n="1" prob_d="50" free_games="20" free_games_multiplier="5"/>
+            </outcomes>
+            <levels>
+                <level name="Level 1" min_pick_number="3" max_pick_number="4" requested_sequence_length="8" adjust_choice_sequence_by_user_pick_sequence="true" >
+                    <choice_set_map>
+                        <choice_set_id_list default="true" >
+                            <item choice_set_id="0" prob_n="1" prob_d="1" />
+                        </choice_set_id_list>
+                    </choice_set_map>
+                </level>
+            </levels>
+            <choices>
+                <!-- criterion_0 is free spins no, criterion_1 is multiplier no -->
+                <set name="normal game" >
+                    <choice criterion_0="1" criterion_1="0" prob_n="1" prob_d="17" max_instance_number="2" />
+                    <choice criterion_0="2" criterion_1="0" prob_n="1" prob_d="17" max_instance_number="5" />
+                    <choice criterion_0="3" criterion_1="0" prob_n="1" prob_d="17" max_instance_number="5" />
+                    <choice criterion_0="4" criterion_1="0" prob_n="1" prob_d="17" max_instance_number="5" />
+                    <choice criterion_0="5" criterion_1="0" prob_n="1" prob_d="17" max_instance_number="5" />
+                    <choice criterion_0="6" criterion_1="0" prob_n="1" prob_d="17" max_instance_number="5" />
+                    <choice criterion_0="7" criterion_1="0" prob_n="1" prob_d="17" max_instance_number="5" />
+                    <choice criterion_0="8" criterion_1="0" prob_n="1" prob_d="17" max_instance_number="5" />
+                    <choice criterion_0="9" criterion_1="0" prob_n="1" prob_d="17" max_instance_number="5" />
+                    <choice criterion_0="10" criterion_1="0" prob_n="1" prob_d="17" max_instance_number="2" />
+
+                    <choice criterion_0="0" criterion_1="1" prob_n="1" prob_d="17" max_instance_number="4" />
+                    <choice criterion_0="0" criterion_1="2" prob_n="1" prob_d="17" max_instance_number="5" />
+                    <choice criterion_0="0" criterion_1="3" prob_n="1" prob_d="17" max_instance_number="5" />
+                    <choice criterion_0="0" criterion_1="4" prob_n="1" prob_d="17" max_instance_number="5" />
+                    <choice criterion_0="0" criterion_1="5" prob_n="1" prob_d="17" max_instance_number="5" />
+
+                    <choice criterion_0="0" criterion_1="0" additional_choices_number="1" prob_n="1" prob_d="17" max_instance_number="1" />
+                    <choice criterion_0="0" criterion_1="0" additional_choices_number="2" prob_n="1" prob_d="17" max_instance_number="1" />
+                </set>
+            </choices>
+        </bonus_game>
+    </bonus_game_list>
+
+</root>
+	
